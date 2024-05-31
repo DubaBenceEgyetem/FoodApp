@@ -22,6 +22,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 
+
 @NgModule({
   declarations: [AppComponent, HeaderComponent, HomeComponent],
   imports: [
