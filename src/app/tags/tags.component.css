@@ -1,0 +1,13 @@
+.tags{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+    display: flex;
+}
+
+div a{
+    padding: .3rem 1rem;
+    font-weight: 600;
+    color: blue;
+}

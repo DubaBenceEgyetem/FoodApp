@@ -1,0 +1,35 @@
+.search{
+ margin: 2rem 0;
+ justify-content: center;
+ text-align: center;
+}
+
+input{
+    border: none;
+    height: 3rem;
+    width: 20rem;
+    outline: none;
+    border-radius: 10rem 0 0 10rem;
+}
+
+button{
+    background-color: rgb(253, 86, 86);
+    border: none;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 0 10rem 10rem 0;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover
+{
+    opacity: .9;
+    background-color: red;
+}
+
+input::placeholder
+{
+    font-weight: 600;
+}
